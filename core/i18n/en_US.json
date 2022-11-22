@@ -1,0 +1,73 @@
+{
+  "plugins\/mqttDomutils\/core\/ajax\/mqttDomutils.ajax.php": {
+    "401 - Accès non autorisé": "401 - Unauthorized Access",
+    "Erreur reponse autocomplete": "Autocomplete Answer Error",
+    "Aucune methode correspondante à : ": "No method corresponding to: "
+  },
+  "plugins\/mqttDomutils\/core\/class\/mqttDomutils.class.php": {
+    "Le message reçu n\\'est pas un message mqttDomutils": "The received message is not an mqttDomutils message",
+    "Le message reçu est de type inconnu": "The message received is of unknown type",
+    "Commentaire equipement mis à jour": "Updated equipment comment",
+    "Veuillez vérifier la configuration": "Please check the configuration",
+    "Informations reçues de MQTT Manager": "Information received from MQTT Manager",
+    "Le plugin MQTT Manager n\\'est pas installé": "MQTT Manager plugin is not installed",
+    "Le démon MQTT Manager n\\'est pas démarré": "MQTT Manager daemon is not started",
+    "Démarrage du démon mqttDomutils": "Starting the mqttDomutils daemon",
+    "Impossible de démarrer le démon mqttDomutils, consultez les logs": "Unable to start mqttDomutils daemon, check logs",
+    "Arrêt du démon mqttDomutils": "Stopping the mqttDomutils daemon"
+  },
+  "plugins\/mqttDomutils\/desktop\/js\/mqttDomutils.js": {
+    "Pas de resultat": "No results",
+    "Nom de la commande": "Order Name",
+    "Choisir une icône": "Choose an icon",
+    "Commande info liée": "Command linked info",
+    "Aucune": "No",
+    "Afficher": "Post",
+    "Historiser": "History",
+    "Inverser": "Invert",
+    "Min": "Min",
+    "Max": "Max",
+    "Unité": "Unit",
+    "Tester": "Test",
+    "Supprimer la commande": "Delete Order"
+  },
+  "plugins\/mqttDomutils\/desktop\/php\/mqttDomutils.php": {
+    "401 - Accès non autorisé": "401 - Unauthorized Access",
+    "Gestion": "Management",
+    "Ajouter": "Add",
+    "Configuration": "Configuration",
+    "Mes Informations": "My Information",
+    "Aucun équipement trouvé, cliquer sur \"Ajouter\" pour commencer": "No equipment found, click \"Add\" to get started",
+    "Rechercher": "Research",
+    "Equipement visible": "Visible equipment",
+    "Equipement non visible": "Equipment not visible",
+    "Configuration avancée": "Advanced configuration",
+    "Dupliquer": "Duplicate",
+    "Sauvegarder": "To save",
+    "Supprimer": "Delete",
+    "Equipement": "Equipment",
+    "Commandes": "Commands",
+    "Paramètres généraux": "General settings",
+    "Nom de l'équipement": "Equipment Name",
+    "Objet parent": "Parent object",
+    "Aucun": "None",
+    "Catégorie": "Category",
+    "Options": "Options",
+    "Activer": "Activate",
+    "Visible": "Visible",
+    "Paramètres spécifiques": "Specific parameters",
+    "Informations": "News",
+    "Description": "Description",
+    "Ajouter une commande": "Add an order",
+    "Nom": "Name",
+    "Type": "Type",
+    "Paramètres": "Parameters",
+    "Etat": "State",
+    "Actions": "Actions",
+    "Ville": "Town",
+    "Saisir la ville": "Seize the city"
+  },
+  "info.json": {
+    "Ce plugin permet de récupérer de nombreuses infos.<br>- Jour férié<br>- Week-End<br>- Vacances scolaires<br>- Soleil & Lune<br>- Couleur EDF Tempo<br>- Vigilance Météo<br>...": "This plugin allows you to retrieve a lot of information. - <br>Public holiday- <br>Weekend- <br>School holidays- <br>Sun & Moon- <br>Color EDF Tempo<br>- Weather vigilance <br>..."
+  }
+}

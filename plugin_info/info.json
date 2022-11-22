@@ -1,0 +1,36 @@
+{
+  "id": "mqttDomutils",
+  "name": "MQTT Domutils",
+  "description": {
+    "fr_FR" : "Ce plugin permet de récupérer de nombreuses infos.<br>- Jour férié<br>- Week-End<br>- Vacances scolaires<br>- Soleil & Lune<br>- Couleur EDF Tempo<br>- Vigilance Météo<br>...",
+    "en_US" : "This plugin allows you to retrieve many infos.<br>- Holiday<br>- Weekend<br>- School holidays<br>- Sun & Moon<br>- EDF Tempo Color<br>- Weather Watch<br>...",
+    "es_ES" : "Este plugin le permite recuperar muchas informaciones.<br>- Días festivos<br>- Fin de semana<br>- Vacaciones escolares<br>- Sol y Luna<br>- EDF Tempo Color<br>- Vigilancia meteorológica<br>...",
+    "de_DE" : "Mit diesem Plugin können Sie zahlreiche Infos abrufen.<br>- Feiertag<br>- Wochenende<br>- Schulferien<br>- Sonne & Mond<br>- EDF-Farbe Tempo<br>- Wetterwarnung<br>..."
+  },
+  "licence": "AGPL",
+  "author": "Wocha",
+  "require": "4.2",
+  "category": "organization",
+  "hasDependency": true,
+  "hasOwnDeamon": true,
+  "maxDependancyInstallTime": 30,
+  "changelog": "https://wocha-fr.github.io/jeedom-domutils/#language#/changelog",
+  "documentation": "https://wocha-fr.github.io/jeedom-domutils/#language#/",
+  "changelog_beta": "https://wocha-fr.github.io/jeedom-domutils/#language#/changelog_beta",
+  "documentation_beta": "https://wocha-fr.github.io/jeedom-domutils/#language#/index_beta",
+  "issue": "https://github.com/WoCha-FR/jeedom-domutils/issues",
+  "language": [
+      "fr_FR",
+      "en_US",
+      "es_ES",
+      "de_DE"
+  ],
+  "compatibility": [
+      "rpi",
+      "docker",
+      "diy",
+      "v4",
+      "atlas",
+      "smart"
+  ]
+}

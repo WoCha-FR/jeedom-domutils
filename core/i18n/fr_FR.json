@@ -1,0 +1,73 @@
+{
+  "plugins\/mqttDomutils\/core\/ajax\/mqttDomutils.ajax.php": {
+    "401 - Accès non autorisé": "401 - Accès non autorisé",
+    "Erreur reponse autocomplete": "Erreur reponse autocomplete",
+    "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
+  },
+  "plugins\/mqttDomutils\/core\/class\/mqttDomutils.class.php": {
+    "Le message reçu n\\'est pas un message mqttDomutils": "Le message reçu n\\'est pas un message mqttDomutils",
+    "Le message reçu est de type inconnu": "Le message reçu est de type inconnu",
+    "Commentaire equipement mis à jour" : "Commentaire equipement mis à jour",
+    "Veuillez vérifier la configuration": "Veuillez vérifier la configuration",
+    "Informations reçues de MQTT Manager": "Informations reçues de MQTT Manager",
+    "Le plugin MQTT Manager n\\'est pas installé": "Le plugin MQTT Manager n\\'est pas installé",
+    "Le démon MQTT Manager n\\'est pas démarré": "Le démon MQTT Manager n\\'est pas démarré",
+    "Démarrage du démon mqttDomutils": "Démarrage du démon mqttDomutils",
+    "Impossible de démarrer le démon mqttDomutils, consultez les logs": "Impossible de démarrer le démon mqttDomutils, consultez les logs",
+    "Arrêt du démon mqttDomutils": "Arrêt du démon mqttDomutils"
+  },
+  "plugins\/mqttDomutils\/desktop\/js\/mqttDomutils.js": {
+    "Pas de resultat" : "Pas de resultat",
+    "Nom de la commande" : "Nom de la commande",
+    "Choisir une icône" : "Choisir une icône",
+    "Commande info liée" : "Commande info liée",
+    "Aucune" : "Aucune",
+    "Afficher" : "Afficher",
+    "Historiser" : "Historiser",
+    "Inverser" : "Inverser",
+    "Min" : "Min",
+    "Max" : "Max",
+    "Unité" : "Unité",
+    "Tester" : "Tester",
+    "Supprimer la commande" : "Supprimer la commande"
+  },
+  "plugins\/mqttDomutils\/desktop\/php\/mqttDomutils.php": {
+    "401 - Accès non autorisé": "401 - Accès non autorisé",
+    "Gestion": "Gestion",
+    "Ajouter": "Ajouter",
+    "Configuration": "Configuration",
+    "Mes Informations": "Mes Informations",
+    "Aucun équipement trouvé, cliquer sur \"Ajouter\" pour commencer": "Aucun équipement trouvé, cliquer sur \"Ajouter\" pour commencer",
+    "Rechercher": "Rechercher",
+    "Equipement visible": "Equipement visible",
+    "Equipement non visible": "Equipement non visible",
+    "Configuration avancée": "Configuration avancée",
+    "Dupliquer": "Dupliquer",
+    "Sauvegarder": "Sauvegarder",
+    "Supprimer": "Supprimer",
+    "Equipement": "Equipement",
+    "Commandes": "Commandes",
+    "Paramètres généraux": "Paramètres généraux",
+    "Nom de l'équipement": "Nom de l'équipement",
+    "Objet parent": "Objet parent",
+    "Aucun": "Aucun",
+    "Catégorie": "Catégorie",
+    "Options": "Options",
+    "Activer": "Activer",
+    "Visible": "Visible",
+    "Paramètres spécifiques": "Paramètres spécifiques",
+    "Informations": "Informations",
+    "Description": "Description",
+    "Ajouter une commande": "Ajouter une commande",
+    "Nom": "Nom",
+    "Type": "Type",
+    "Paramètres": "Paramètres",
+    "Etat": "Etat",
+    "Actions": "Actions",
+    "Ville": "Ville",
+    "Saisir la ville" : "Saisir la ville"
+  },
+  "info.json": {
+    "Ce plugin permet de récupérer de nombreuses infos.<br>- Jour férié<br>- Week-End<br>- Vacances scolaires<br>- Soleil & Lune<br>- Couleur EDF Tempo<br>- Vigilance Météo<br>...": "Ce plugin permet de récupérer de nombreuses infos.<br>- Jour férié<br>- Week-End<br>- Vacances scolaires<br>- Soleil & Lune<br>- Couleur EDF Tempo<br>- Vigilance Météo<br>..."
+  }
+}

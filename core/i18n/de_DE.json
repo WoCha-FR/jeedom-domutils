@@ -1,0 +1,73 @@
+{
+  "plugins\/mqttDomutils\/core\/ajax\/mqttDomutils.ajax.php": {
+    "401 - Accès non autorisé": "401 - Unbefugter Zugriff",
+    "Erreur reponse autocomplete": "Antwortfehler bei der automatischen Vervollständigung",
+    "Aucune methode correspondante à : ": "Keine Methode, die folgendem entspricht: "
+  },
+  "plugins\/mqttDomutils\/core\/class\/mqttDomutils.class.php": {
+    "Le message reçu n\\'est pas un message mqttDomutils": "Die empfangene Nachricht ist keine mqttDomutils-Nachricht",
+    "Le message reçu est de type inconnu": "Die empfangene Nachricht ist unbekannten Typs",
+    "Commentaire equipement mis à jour": "Aktualisierter Ausrüstungskommentar",
+    "Veuillez vérifier la configuration": "Bitte überprüfen Sie die Konfiguration",
+    "Informations reçues de MQTT Manager": "Von MQTT Manager empfangene Informationen",
+    "Le plugin MQTT Manager n\\'est pas installé": "MQTT Manager-Plugin ist nicht installiert",
+    "Le démon MQTT Manager n\\'est pas démarré": "MQTT Manager-Daemon wurde nicht gestartet",
+    "Démarrage du démon mqttDomutils": "Starten des mqttDomutils-Daemons",
+    "Impossible de démarrer le démon mqttDomutils, consultez les logs": "mqttDomutils-Daemon kann nicht gestartet werden, Protokolle überprüfen",
+    "Arrêt du démon mqttDomutils": "Stoppen des mqttDomutils-Daemons"
+  },
+  "plugins\/mqttDomutils\/desktop\/js\/mqttDomutils.js": {
+    "Pas de resultat": "Keine Ergebnisse",
+    "Nom de la commande": "Bestellname",
+    "Choisir une icône": "Wählen Sie ein Symbol",
+    "Commande info liée": "Befehlsverknüpfte Informationen",
+    "Aucune": "Nein",
+    "Afficher": "Bereitstellen",
+    "Historiser": "Geschichte",
+    "Inverser": "Invertieren",
+    "Min": "Min",
+    "Max": "Max",
+    "Unité": "Einheit",
+    "Tester": "Test",
+    "Supprimer la commande": "Bestellung löschen"
+  },
+  "plugins\/mqttDomutils\/desktop\/php\/mqttDomutils.php": {
+    "401 - Accès non autorisé": "401 - Unbefugter Zugriff",
+    "Gestion": "Management",
+    "Ajouter": "Hinzufügen",
+    "Configuration": "Konfiguration",
+    "Mes Informations": "Meine Informationen",
+    "Aucun équipement trouvé, cliquer sur \"Ajouter\" pour commencer": "Keine Ausrüstung gefunden, klicken Sie auf \"Hinzufügen\", um loszulegen",
+    "Rechercher": "Forschung",
+    "Equipement visible": "Sichtbare Ausrüstung",
+    "Equipement non visible": "Ausrüstung nicht sichtbar",
+    "Configuration avancée": "Erweiterte Konfiguration",
+    "Dupliquer": "Duplikat",
+    "Sauvegarder": "So speichern Sie",
+    "Supprimer": "Löschen",
+    "Equipement": "Ausrüstung",
+    "Commandes": "Befehle",
+    "Paramètres généraux": "Allgemeine Einstellungen",
+    "Nom de l'équipement": "Name der Ausrüstung",
+    "Objet parent": "Übergeordnetes Objekt",
+    "Aucun": "Nichts",
+    "Catégorie": "Kategorie",
+    "Options": "Optionen",
+    "Activer": "Aktivieren",
+    "Visible": "Sichtbar",
+    "Paramètres spécifiques": "Spezifische Parameter",
+    "Informations": "Nachrichten",
+    "Description": "Beschreibung",
+    "Ajouter une commande": "Bestellung hinzufügen",
+    "Nom": "Name",
+    "Type": "Art",
+    "Paramètres": "Parameter",
+    "Etat": "Zustand",
+    "Actions": "Aktionen",
+    "Ville": "Stadt",
+    "Saisir la ville": "Erobere die Stadt"
+  },
+  "info.json": {
+    "Ce plugin permet de récupérer de nombreuses infos.<br>- Jour férié<br>- Week-End<br>- Vacances scolaires<br>- Soleil & Lune<br>- Couleur EDF Tempo<br>- Vigilance Météo<br>...": "Mit diesem Plugin können Sie viele Informationen abrufen. - <br>Feiertag- <br>Wochenende- <br>Schulferien- <br>Sonne & Mond- <br>Farbe EDF Tempo<br>- Wetterüberwachung <br>..."
+  }
+}
