@@ -91,3 +91,15 @@ Les données sont actualisés automatiquement à fréquence fixe.
 - Numéro du jour / de semaine
 - Jour férié
 - Vacances scolaires
+
+## API utilisés
+
+Ce plugin se base sur les API, gratuites et ne nécessitant pas la création de clef, suivantes :
+
+ - https://geo.api.gouv.fr/
+ - [Risques Météorologiques – par départements — Opendatasoft 1](https://public.opendatasoft.com/explore/dataset/risques-meteorologiques-copy/api/)
+ - [Le calendrier scolaire — Éducation Nationale - Accueil](https://data.education.gouv.fr/explore/dataset/fr-en-calendrier-scolaire/information/?disjunctive.description&disjunctive.population&disjunctive.location&disjunctive.zones&disjunctive.annee_scolaire)
+ - [ReDoc](https://calendrier.api.gouv.fr/jours-feries/)
+
+Les données Soleil et Lune proviennent de la librairie Suncalc (nodeJS).  
+Les autres données fournies par le plugin viennent de calcul internes à la librairie JS.
