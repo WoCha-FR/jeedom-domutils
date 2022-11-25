@@ -17,6 +17,16 @@ And for each city provided in parameter :
 - School vacations (according to the school zone of the city)
 - Weather alert
 
+### API & Libraries Used
+
+This plugin is based on APIs, which are free and do not require the creation of keys and libraries installed as dependencies.
+
+- [geo.api.gouv.fr](https://geo.api.gouv.fr/)
+- [Risques Météorologiques](https://public.opendatasoft.com/explore/dataset/risques-meteorologiques-copy/api/)
+- [Le calendrier scolaire](https://data.education.gouv.fr/explore/dataset/fr-en-calendrier-scolaire/information/)
+- [Jours fériés en France](https://calendrier.api.gouv.fr/jours-feries/)
+- [SunCalc](https://github.com/mourner/suncalc)
+
 ## Prerequisites
 
 This plugin requires [MQTT Manager](https://market.jeedom.com/index.php?v=d&p=market_display&id=4213), an official and free plugin.
