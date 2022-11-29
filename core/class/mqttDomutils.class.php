@@ -339,7 +339,7 @@ class mqttDomutils extends eqLogic {
 
     $appjs_path = realpath(dirname(__FILE__) . '/../../resources/mqtt4frenchtools');
     chdir($appjs_path);
-    $cmd = system::getCmdSudo() . ' /usr/bin/node ' . $appjs_path . '/index.js -z';
+    $cmd = ' /usr/bin/node ' . $appjs_path . '/index.js -z';
 
 		$eqLogics = self::byType(__CLASS__, true);
 		foreach ($eqLogics as $eqLogic) {
