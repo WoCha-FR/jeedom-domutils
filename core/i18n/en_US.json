@@ -14,7 +14,8 @@
     "Le démon MQTT Manager n\\'est pas démarré": "MQTT Manager daemon is not started",
     "Démarrage du démon mqttDomutils": "Starting the mqttDomutils daemon",
     "Impossible de démarrer le démon mqttDomutils, consultez les logs": "Unable to start mqttDomutils daemon, check logs",
-    "Arrêt du démon mqttDomutils": "Stopping the mqttDomutils daemon"
+    "Arrêt du démon mqttDomutils": "Stopping the mqttDomutils daemon",
+    "Dépendances non installées.": "Dependency not installed."
   },
   "plugins\/mqttDomutils\/desktop\/js\/mqttDomutils.js": {
     "Pas de resultat": "No results",
@@ -66,6 +67,10 @@
     "Actions": "Actions",
     "Ville": "Town",
     "Saisir la ville": "Seize the city"
+  },
+  "plugins\/mqttDomutils\/plugin_info\/configuration.php": {
+    "Version Librairie Domutils": "Domutils Library version",
+    "Veuillez relancer les dépendances pour mettre à jour la librairie. Relancez ensuite le démon pour voir la nouvelle version.": "Please restart the dependencies to update the library. Then restart the daemon to see the new version."
   },
   "info.json": {
     "Ce plugin permet de récupérer de nombreuses infos.<br>- Jour férié<br>- Week-End<br>- Vacances scolaires<br>- Soleil & Lune<br>- Couleur EDF Tempo<br>- Vigilance Météo<br>...": "This plugin allows you to retrieve a lot of information. - <br>Public holiday- <br>Weekend- <br>School holidays- <br>Sun & Moon- <br>Color EDF Tempo<br>- Weather vigilance <br>..."

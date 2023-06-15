@@ -316,7 +316,11 @@ class mqttDomutils extends eqLogic {
     $return['state'] = 'ok';
     if (config::byKey('lastDependancyInstallTime', __CLASS__) == '') {
       $return['state'] = 'nok';
+    } else if (!file_exists(__DIR__ . '/../../resources/mqtt4frenchtools/index.js')) {
+      $return['state'] = 'nok';
     } else if (!file_exists(__DIR__ . '/../../resources/mqtt4frenchtools/node_modules')) {
+      $return['state'] = 'nok';
+    } else if (config::byKey('mqttDomutilsRequire', __CLASS__) != config::byKey('mqttDomutilsVersion', __CLASS__)) {
       $return['state'] = 'nok';
     }
     return $return;
@@ -415,8 +419,17 @@ class mqttDomutils extends eqLogic {
 				$return['launchable_message'] = __('Le démon MQTT Manager n\'est pas démarré', __FILE__);
 			}
 		}
+    // Dépendances
+    if (self::dependancy_info()['state'] == 'nok') {
+			$return['launchable'] = 'nok';
+			$return['launchable_message'] = __('Dépendances non installées.', __FILE__);
+		}    
     return $return;
   }
+
+  public static function dependancy_end() {
+		config::save('mqttDomutilsVersion', config::byKey('mqttDomutilsRequire', __CLASS__), __CLASS__);
+	}
 
 	public static function isRunning() {
 		if (!empty(system::ps('mqtt4frenchtools/index.js'))) {

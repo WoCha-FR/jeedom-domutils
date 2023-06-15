@@ -25,6 +25,29 @@ if (!isConnect()) {
 <form class="form-horizontal">
   <fieldset>
     <div class="form-group">
+      <label class="col-md-4 control-label">{{Version Librairie Domutils}}</label>
+      <div class="col-md-3">
+      <?php
+        $file = dirname(__FILE__) . '/../resources/mqtt4frenchtools/package.json';
+        $package = array();
+        if (file_exists($file)) {
+          $package = json_decode(file_get_contents($file), true);
+        }
+        if (isset($package['version'])){
+          config::save('mqttDomutilsVersion', $package['version'], 'mqttDomutils');
+        }
+        $localVersion = config::byKey('mqttDomutilsVersion', 'mqttDomutils', 'N/A');
+        $wantedVersion = config::byKey('mqttDomutilsRequire', 'mqttDomutils', '');
+        if ($localVersion != $wantedVersion) {
+          echo '<span class="label label-warning">' . $localVersion . '</span><br>';
+          echo "<div class='alert alert-danger text-center'>{{Veuillez relancer les dépendances pour mettre à jour la librairie. Relancez ensuite le démon pour voir la nouvelle version.}}</div>";
+        } else {
+          echo '<span class="label label-success">' . $localVersion . '</span><br>';
+        }
+      ?>
+      </div>
+    </div>
+    <div class="form-group">
       <label class="col-md-4 control-label">{{Topic racine}}</label>
       <div class="col-md-3">
         <input class="configKey form-control" data-l1key="mqtt::topic" />
@@ -32,3 +55,9 @@ if (!isConnect()) {
     </div>
   </fieldset>
 </form>
+
+<script>
+  $('body').off('mqttDomutils::dependancy_end').on('mqttDomutils::dependancy_end', function(_event, _options) {
+    window.location.reload()
+  })  
+</script>

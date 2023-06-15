@@ -14,7 +14,8 @@
     "Le démon MQTT Manager n\\'est pas démarré": "Le démon MQTT Manager n\\'est pas démarré",
     "Démarrage du démon mqttDomutils": "Démarrage du démon mqttDomutils",
     "Impossible de démarrer le démon mqttDomutils, consultez les logs": "Impossible de démarrer le démon mqttDomutils, consultez les logs",
-    "Arrêt du démon mqttDomutils": "Arrêt du démon mqttDomutils"
+    "Arrêt du démon mqttDomutils": "Arrêt du démon mqttDomutils",
+    "Dépendances non installées.": "Dépendances non installées."
   },
   "plugins\/mqttDomutils\/desktop\/js\/mqttDomutils.js": {
     "Pas de resultat" : "Pas de resultat",
@@ -66,6 +67,10 @@
     "Actions": "Actions",
     "Ville": "Ville",
     "Saisir la ville" : "Saisir la ville"
+  },
+  "plugins\/mqttDomutils\/plugin_info\/configuration.php": {
+    "Version Librairie Domutils": "Version Librairie Domutils",
+    "Veuillez relancer les dépendances pour mettre à jour la librairie. Relancez ensuite le démon pour voir la nouvelle version.": "Veuillez relancer les dépendances pour mettre à jour la librairie. Relancez ensuite le démon pour voir la nouvelle version."
   },
   "info.json": {
     "Ce plugin permet de récupérer de nombreuses infos.<br>- Jour férié<br>- Week-End<br>- Vacances scolaires<br>- Soleil & Lune<br>- Couleur EDF Tempo<br>- Vigilance Météo<br>...": "Ce plugin permet de récupérer de nombreuses infos.<br>- Jour férié<br>- Week-End<br>- Vacances scolaires<br>- Soleil & Lune<br>- Couleur EDF Tempo<br>- Vigilance Météo<br>..."
