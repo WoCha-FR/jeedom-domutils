@@ -341,8 +341,8 @@ class mqttDomutils extends eqLogic {
     $mqtt_url .= ($mqttInfos['password'] === null) ? '' : $mqttInfos['user'].':'.$mqttInfos['password'].'@';
     $mqtt_url .= $mqttInfos['ip'].':'.$mqttInfos['port'];
 
-    $appjs_path = realpath(dirname(__FILE__) . '/../../resources/node_modules');
-    chdir($appjs_path . '/mqtt4frenchtools');
+    $appjs_path = realpath(dirname(__FILE__) . '/../../resources/node_modules/mqtt4frenchtools');
+    chdir($appjs_path);
     $cmd = ' /usr/bin/node ' . $appjs_path . '/index.js -z';
 
     $eqLogics = self::byType(__CLASS__, true);
