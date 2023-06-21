@@ -28,7 +28,7 @@ if (!isConnect()) {
       <label class="col-md-4 control-label">{{Version Librairie Domutils}}</label>
       <div class="col-md-3">
       <?php
-        $file = dirname(__FILE__) . '/../resources/mqtt4frenchtools/package.json';
+        $file = dirname(__FILE__) . '/../resources/node_modules/mqtt4frenchtools/package.json';
         $package = array();
         if (file_exists($file)) {
           $package = json_decode(file_get_contents($file), true);
@@ -51,6 +51,12 @@ if (!isConnect()) {
       <label class="col-md-4 control-label">{{Topic racine}}</label>
       <div class="col-md-3">
         <input class="configKey form-control" data-l1key="mqtt::topic" />
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-md-4 control-label">{{APIKey Meteo France}}</label>
+      <div class="col-md-3">
+        <textarea class="configKey form-control autogrow" data-l1key="mqttDomutils::apikey"></textarea>
       </div>
     </div>
   </fieldset>

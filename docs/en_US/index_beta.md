@@ -15,14 +15,14 @@ And for each city provided in parameter :
 - Information about the moon (sunset, moonrise, ....)
 - Public holidays (with those of Alsace-Moselle if concerned)
 - School vacations (according to the school zone of the city)
-- Weather alert
+- Weather watch (if API key provided in plugin configuration)
 
 ### API & Libraries Used
 
 This plugin is based on APIs, which are free and do not require the creation of keys and libraries installed as dependencies.
 
 - [geo.api.gouv.fr](https://geo.api.gouv.fr/)
-- [Risques Météorologiques](https://public.opendatasoft.com/explore/dataset/risques-meteorologiques-copy/api/)
+- [DonneesPubliquesVigilance](https://portail-api.meteofrance.fr/devportal/apis/5e99a87c-d50d-465b-a33f-1f12cf675161/overview)
 - [Le calendrier scolaire](https://data.education.gouv.fr/explore/dataset/fr-en-calendrier-scolaire/information/)
 - [Jours fériés en France](https://calendrier.api.gouv.fr/jours-feries/)
 - [SunCalc](https://github.com/mourner/suncalc)
@@ -38,9 +38,20 @@ This plugin requires [MQTT Manager](https://market.jeedom.com/index.php?v=d&p=ma
 - Install the dependencies
 - Start the daemon
 
+## Configuration
+
+### Configuration parameters :
+- **Topic racine** : Root subject that Jeedom must listen to
+- **APIKey Meteo France** : API key provided by the portal-api.meteofrance.fr website
+
+#### How to create my API Key
+
+- Start by creating an account as shown [here](https://portail-api.meteofrance.fr/authenticationendpoint/aide.do#create-count)
+- Get your API Key by following these [steps](https://portail-api.meteofrance.fr/authenticationendpoint/aide.do#logic-schema)
+
 ## Equipment configuration
 
-Pushover2 equipment configuration is accessible from the Plugins → Organization menu.
+mqttDomutils equipment configuration is accessible from the Plugins → Organization menu.
 
 ### Default equipment
 
@@ -82,7 +93,7 @@ For each configured city, the plugin will create "info" commands for each inform
 - **School vacations**: Is it a vacation? Name of vacation, Number of days before vacation, Next holiday (name & date), Number of days before next vacation.
 - **Sun**: Sunrise, sunset, zenith, day length (and difference from the day before), Azimuth and Elevation.
 - **Moon**: Time of rising, setting, Moon phase, Elevation, Moon always up or absent all day.
-- **Vigilance** : Color by type of danger (wind, storm, snow, ...), Advice related to vigilance, Comment on the situation.
+- **Vigilance** : Color by type of danger.
 
 ## Data update
 

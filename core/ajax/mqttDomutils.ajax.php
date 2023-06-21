@@ -31,8 +31,8 @@ try {
     curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($c, CURLOPT_HTTPHEADER, array(
-    	'Cache-Control: no-cache',
-    	'content-type:application/json;charset=utf-8'
+      'Cache-Control: no-cache',
+      'content-type:application/json;charset=utf-8'
     ));
     $response = curl_exec($c);
     curl_close($c);

@@ -15,14 +15,14 @@ Y para cada ciudad prevista en el parámetro :
 - Información sobre la luna (puesta de sol, salida de la luna, ....)
 - Días festivos (con los de Alsacia-Mosela si se trata)
 - Vacaciones escolares (según la zona escolar de la ciudad)
-- Alerta meteorológica
+- Vigilancia meteorológica (si se proporciona la clave API en la configuración del complemento)
 
 ### API y bibliotecas utilizadas
 
 Este plugin se basa en APIs, que son gratuitas y no requieren la creación de claves y librerías instaladas como dependencias.
 
 - [geo.api.gouv.fr](https://geo.api.gouv.fr/)
-- [Risques Météorologiques](https://public.opendatasoft.com/explore/dataset/risques-meteorologiques-copy/api/)
+- [DonneesPubliquesVigilance](https://portail-api.meteofrance.fr/devportal/apis/5e99a87c-d50d-465b-a33f-1f12cf675161/overview)
 - [Le calendrier scolaire](https://data.education.gouv.fr/explore/dataset/fr-en-calendrier-scolaire/information/)
 - [Jours fériés en France](https://calendrier.api.gouv.fr/jours-feries/)
 - [SunCalc](https://github.com/mourner/suncalc)
@@ -38,9 +38,20 @@ Este plugin requiere [MQTT Manager](https://market.jeedom.com/index.php?v=d&p=ma
 - Instalar las dependencias
 - Iniciar el demonio
 
+## Configuración
+
+### Parámetros de configuración :
+- **Tema racine** : Tema raíz que Jeedom debe escuchar
+- **APIKey Meteo France** : Clave API proporcionada por el sitio web portal-api.meteofrance.fr
+
+#### Cómo crear mi clave API
+
+- Empiece por crear una cuenta como se muestra [aquí](https://portail-api.meteofrance.fr/authenticationendpoint/aide.do#create-count)
+- Obtenga su clave API siguiendo estos [pasos](https://portail-api.meteofrance.fr/authenticationendpoint/aide.do#logic-schema)
+
 ## Configuración del equipo
 
-Se puede acceder a la configuración del equipo Pushover2 desde el menú Plugins → Organización.
+Se puede acceder a la configuración del equipo mqttDomutils desde el menú Plugins → Organización.
 
 ### Equipo por defecto
 
@@ -82,7 +93,7 @@ Para cada ciudad configurada, el plugin creará comandos "info" para cada inform
 - **Vacaciones**: ¿Es un día de fiesta? Nombre de las vacaciones, Número de días antes de que terminen las vacaciones, Próximas vacaciones (nombre y fecha), Número de días antes de las próximas vacaciones.
 - **Sol**: Hora de salida y puesta del sol, cenit, duración del día (y diferencia con el día anterior), acimut y elevación.
 - **Luna**: Hora de salida, puesta, fase lunar, Elevación, Luna siempre arriba o ausente todo el día.
-- **Vigilancia**: Color por tipo de peligro (viento, tormenta, nieve, ...), Consejos relacionados con la vigilancia, Comentario de la situación.
+- **Vigilancia**: Color por tipo de peligro.
 
 ## Actualización de datos
 

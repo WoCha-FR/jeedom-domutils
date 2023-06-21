@@ -15,14 +15,14 @@ Und für jede in Parameter gelieferte Stadt :
 - Informationen über den Mond (Monduntergang, Mondaufgang, ....).
 - Feiertage (mit denen von Elsass-Moselle, falls betroffen).
 - Schulferien (entsprechend der Schulzone der Stadt).
-- Wetterwarnung
+- Wetterwarnung (wenn API-Key in der Plugin-Konfiguration bereitgestellt wird)
 
 ### Verwendete APIs & Bibliotheken
 
 Dieses Plugin basiert auf APIs, die kostenlos sind und keine Erstellung von Schlüsseln und Bibliotheken erfordern, die als Abhängigkeiten installiert werden.
 
 - [geo.api.gouv.fr](https://geo.api.gouv.fr/)
-- [Risques Météorologiques](https://public.opendatasoft.com/explore/dataset/risques-meteorologiques-copy/api/)
+- [DonneesPubliquesVigilance](https://portail-api.meteofrance.fr/devportal/apis/5e99a87c-d50d-465b-a33f-1f12cf675161/overview)
 - [Le calendrier scolaire](https://data.education.gouv.fr/explore/dataset/fr-en-calendrier-scolaire/information/)
 - [Jours fériés en France](https://calendrier.api.gouv.fr/jours-feries/)
 - [SunCalc](https://github.com/mourner/suncalc)
@@ -38,9 +38,20 @@ Dieses Plugin erfordert [MQTT Manager](https://market.jeedom.com/index.php?v=d&p
 - Die Abhängigkeiten installieren
 - Dämon starten
 
+## Konfiguration
+
+### Konfigurationseinstellungen :
+- **Thema racine** : Root-Thema, auf das Jeedom hören soll
+- **APIKey Meteo France** : API-Key, der von der Website portal-api.meteofrance.fr bereitgestellt wird
+
+#### Wie ich meinen API-Key erstelle
+
+- Erstellen Sie zunächst ein Konto wie beschrieben [hier](https://portail-api.meteofrance.fr/authenticationendpoint/aide.do#create-count)
+- Holen Sie sich Ihren API-Key, indem Sie diese [Schritte] befolgen(https://portail-api.meteofrance.fr/authenticationendpoint/aide.do#logic-schema)
+
 ## Einrichten der Geräte
 
-Die Konfiguration der Pushover2-Geräte ist über das Menü Plugins → Organisation zugänglich.
+Die Konfiguration der mqttDomutils-Geräte ist über das Menü Plugins → Organisation zugänglich.
 
 ### Standardausstattung
 
@@ -82,7 +93,7 @@ Für jede konfigurierte Stadt wird das Plugin "info"-Befehle für jede Informati
 - **Schulferien**: Ist dies der Urlaub? Name des Urlaubs, Anzahl der Tage bis zum Ende des Urlaubs, Nächster Urlaub (Name & Datum), Anzahl der Tage bis zum nächsten Urlaub.
 - **Sonne**: Aufgangs-, Untergangs- und Zenit-Zeit, Tageslänge (und Unterschied zum Vortag), Azimuth und Elevation.
 - **Mond**: Aufgangs- und Untergangszeit, Mondphase, Elevation, Mond immer aufgegangen oder den ganzen Tag abwesend.
-- **Wachsamkeit**: Farbe nach Gefahrenart (Wind, Gewitter, Schnee, ...), Wachsamkeitsbezogener Ratschlag, Kommentar zur Situation.
+- **Wachsamkeit**: Farbe nach Gefahrenart.
 
 ## Aktualisierung der Daten
 

@@ -15,14 +15,14 @@ Et pour chaque ville fournie en paramètre :
 - Informations sur la lune (coucher, lever de la lune, ....)
 - Jours fériés (avec ceux de l'Alsace-Moselle si concernée)
 - Vacances scolaires (selon la zone scolaire de la ville)
-- Alerte Météo
+- Vigilance Météo (si API key fournis dans la configuration du plugin)
 
 ### API & Librairies Utilisées
 
 Ce plugin se base sur des API, gratuites et ne nécessitant pas la création de clef et des librairies installées en dépendances.
 
 - [geo.api.gouv.fr](https://geo.api.gouv.fr/)
-- [Risques Météorologiques](https://public.opendatasoft.com/explore/dataset/risques-meteorologiques-copy/api/)
+- [DonneesPubliquesVigilance](https://portail-api.meteofrance.fr/devportal/apis/5e99a87c-d50d-465b-a33f-1f12cf675161/overview)
 - [Le calendrier scolaire](https://data.education.gouv.fr/explore/dataset/fr-en-calendrier-scolaire/information/)
 - [Jours fériés en France](https://calendrier.api.gouv.fr/jours-feries/)
 - [SunCalc](https://github.com/mourner/suncalc)
@@ -38,9 +38,20 @@ Ce plugin requiert [MQTT Manager](https://market.jeedom.com/index.php?v=d&p=mark
 - Installer les Dépendances
 - Démarrer le démon
 
+## Configuration
+
+### Paramètres de configuration :
+- **Topic racine** : Sujet racine que Jeedom doit écouter
+- **APIKey Meteo France** : API key fournis par le site portail-api.meteofrance.fr
+
+#### Comment créer mon API Key
+
+- Commencer par créer un compte comme indiqué [ici](https://portail-api.meteofrance.fr/authenticationendpoint/aide_fr.do#create-count)
+- Obtenez votre API Key en suivant ces [étapes](https://portail-api.meteofrance.fr/authenticationendpoint/aide_fr.do#logic-schema)
+
 ## Configuration des équipements
 
-La configuration des équipements Pushover2 est accessible à partir du menu Plugins → Organisation.
+La configuration des équipements mqttDomutils est accessible à partir du menu Plugins → Organisation.
 
 ### Equipement par défaut
 
@@ -82,7 +93,7 @@ Pour chaque ville configurée, le plugins va créer des commandes "info" pour ch
 - **Vacances** : Est-ce les vacances ? Nom des vacances, Nombre de jour avant la fin des vacances, Prochaines vavances (nom & date), Nombre de jour avant les prochaines vacances.
 - **Soleil** : Heure de lever, de coucher, du zenith, durée du jour (et différence par rapport à la veille), Azimuth et Elévation.
 - **Lune** : Heure de lever, de coucher, Phase de lune, Elévation, Lune toujours levée ou absente toute la journée.
-- **Vigilance** : Couleur par type de danger (vent, orage, neige, ...), Conseil lié à la vigilance, Commentaire sur la situation.
+- **Vigilance** : Couleur par type de danger (vent, orage, neige, ...).
 
 ## Actualisation des données
 
@@ -91,7 +102,7 @@ Les données sont actualisés automatiquement à fréquence fixe.
 **Toutes les 5 minutes** :
 - Soleil
 - Lune
-- Vigilance
+- Vigilance (si API key fournis dans la configuration du plugin)
 
 **Toutes les heures** :
 - EDF Tempo

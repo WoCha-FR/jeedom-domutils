@@ -5,13 +5,13 @@
     "Aucune methode correspondante à : ": "No method corresponding to: "
   },
   "plugins\/mqttDomutils\/core\/class\/mqttDomutils.class.php": {
-    "Le message reçu n\\'est pas un message mqttDomutils": "The received message is not an mqttDomutils message",
+    "Le message reçu n'est pas un message mqttDomutils": "The received message is not an mqttDomutils message",
     "Le message reçu est de type inconnu": "The message received is of unknown type",
     "Commentaire equipement mis à jour": "Updated equipment comment",
     "Veuillez vérifier la configuration": "Please check the configuration",
     "Informations reçues de MQTT Manager": "Information received from MQTT Manager",
-    "Le plugin MQTT Manager n\\'est pas installé": "MQTT Manager plugin is not installed",
-    "Le démon MQTT Manager n\\'est pas démarré": "MQTT Manager daemon is not started",
+    "Le plugin MQTT Manager n'est pas installé": "MQTT Manager plugin is not installed",
+    "Le démon MQTT Manager n'est pas démarré": "MQTT Manager daemon is not started",
     "Démarrage du démon mqttDomutils": "Starting the mqttDomutils daemon",
     "Impossible de démarrer le démon mqttDomutils, consultez les logs": "Unable to start mqttDomutils daemon, check logs",
     "Arrêt du démon mqttDomutils": "Stopping the mqttDomutils daemon",
@@ -69,6 +69,7 @@
     "Saisir la ville": "Seize the city"
   },
   "plugins\/mqttDomutils\/plugin_info\/configuration.php": {
+    "APIKey Meteo France": "APIKey Meteo France",
     "Version Librairie Domutils": "Domutils Library version",
     "Veuillez relancer les dépendances pour mettre à jour la librairie. Relancez ensuite le démon pour voir la nouvelle version.": "Please restart the dependencies to update the library. Then restart the daemon to see the new version."
   },

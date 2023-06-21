@@ -5,13 +5,13 @@
     "Aucune methode correspondante à : ": "Keine Methode, die folgendem entspricht: "
   },
   "plugins\/mqttDomutils\/core\/class\/mqttDomutils.class.php": {
-    "Le message reçu n\\'est pas un message mqttDomutils": "Die empfangene Nachricht ist keine mqttDomutils-Nachricht",
+    "Le message reçu n'est pas un message mqttDomutils": "Die empfangene Nachricht ist keine mqttDomutils-Nachricht",
     "Le message reçu est de type inconnu": "Die empfangene Nachricht ist unbekannten Typs",
     "Commentaire equipement mis à jour": "Aktualisierter Ausrüstungskommentar",
     "Veuillez vérifier la configuration": "Bitte überprüfen Sie die Konfiguration",
     "Informations reçues de MQTT Manager": "Von MQTT Manager empfangene Informationen",
-    "Le plugin MQTT Manager n\\'est pas installé": "MQTT Manager-Plugin ist nicht installiert",
-    "Le démon MQTT Manager n\\'est pas démarré": "MQTT Manager-Daemon wurde nicht gestartet",
+    "Le plugin MQTT Manager n'est pas installé": "MQTT Manager-Plugin ist nicht installiert",
+    "Le démon MQTT Manager n'est pas démarré": "MQTT Manager-Daemon wurde nicht gestartet",
     "Démarrage du démon mqttDomutils": "Starten des mqttDomutils-Daemons",
     "Impossible de démarrer le démon mqttDomutils, consultez les logs": "mqttDomutils-Daemon kann nicht gestartet werden, Protokolle überprüfen",
     "Arrêt du démon mqttDomutils": "Stoppen des mqttDomutils-Daemons",
@@ -69,6 +69,7 @@
     "Saisir la ville": "Erobere die Stadt"
   },
   "plugins\/mqttDomutils\/plugin_info\/configuration.php": {
+    "APIKey Meteo France": "APIKey Meteo France",
     "Version Librairie Domutils": "Domutils Buchhandelsversion",
     "Veuillez relancer les dépendances pour mettre à jour la librairie. Relancez ensuite le démon pour voir la nouvelle version.": "Bitte starten Sie die Abhängigkeiten neu, um die Bibliothek zu aktualisieren. Starten Sie anschließend den Daemon erneut, um die neue Version zu sehen."
   },
