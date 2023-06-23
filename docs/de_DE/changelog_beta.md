@@ -4,6 +4,9 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
+# 23/06/2023
+- Die Bibliothek wurde auf Version 1.1.0 aktualisiert.
+
 # 21/06/2023
 - Die Bibliothek wurde auf Version 1.1.0 aktualisiert.
 - Neue Methode für den Zugriff auf die Wettervorhersage, die nun einen API-Schlüssel erfordert.
