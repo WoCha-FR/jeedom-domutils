@@ -4,6 +4,9 @@
 >
 >Si no hay información sobre la actualización, es porque sólo se trata de actualizaciones de documentación, traducción o texto.
 
+# 30/09/2023
+- Biblioteca actualizada a la versión 1.1.2
+
 # 23/06/2023
 - Biblioteca actualizada a la versión 1.1.1
 

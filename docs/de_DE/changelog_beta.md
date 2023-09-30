@@ -4,8 +4,11 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
+# 30/09/2023
+- Die Bibliothek wurde auf Version 1.1.2 aktualisiert.
+
 # 23/06/2023
-- Die Bibliothek wurde auf Version 1.1.0 aktualisiert.
+- Die Bibliothek wurde auf Version 1.1.1 aktualisiert.
 
 # 21/06/2023
 - Die Bibliothek wurde auf Version 1.1.0 aktualisiert.
