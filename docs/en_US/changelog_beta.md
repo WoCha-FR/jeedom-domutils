@@ -4,6 +4,9 @@
 >
 >If there is no information about the update, it means that it is only about documentation, translation or text update.
 
+# 30/09/2023
+- Library updated to version 1.1.2
+
 # 23/06/2023
 - Library updated to version 1.1.1
 
