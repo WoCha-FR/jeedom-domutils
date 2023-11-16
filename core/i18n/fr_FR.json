@@ -15,7 +15,10 @@
     "Démarrage du démon mqttDomutils": "Démarrage du démon mqttDomutils",
     "Impossible de démarrer le démon mqttDomutils, consultez les logs": "Impossible de démarrer le démon mqttDomutils, consultez les logs",
     "Arrêt du démon mqttDomutils": "Arrêt du démon mqttDomutils",
-    "Dépendances non installées.": "Dépendances non installées."
+    "Dépendances non installées.": "Dépendances non installées.",
+    "H:i": "H:i",
+    "aujourd'hui": "aujourd'hui",
+    "demain": "demain"
   },
   "plugins\/mqttDomutils\/desktop\/js\/mqttDomutils.js": {
     "Pas de resultat" : "Pas de resultat",

@@ -305,6 +305,17 @@ class mqttDomutils extends eqLogic {
         $command->setIsVisible(1);
         $command->save();
       }
+      // Champs Timestamp ?
+      if ($value != '' && (substr($key, -1) === 'D' || substr($key, -1) === 'F')) {
+        // Timestamp est demain 
+        if ($value > strtotime('tomorrow')) {
+          $_add = ' '.__('demain', __FILE__);
+        } else {
+          $_add = ' '.__("aujourd'hui", __FILE__);;
+        }
+        // Timestamp to string.
+        $value = date(__('H:i', __FILE__), $value).$_add;
+      }
       $eqLogic->checkAndUpdateCmd($key, $value);
     }
   }
