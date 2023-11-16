@@ -22,6 +22,7 @@ function mqttDomutils_install() {
 function mqttDomutils_update() {
   // Suppression des vigilances inutiles
   foreach (eqLogic::byType('mqttDomutils') as $eqLogic) {
+    # Update 06/2023
     $cmd = $eqLogic->getCmd('info', 'vigiConseil');
     if (is_object($cmd)) {
       $cmd->remove();
@@ -33,6 +34,12 @@ function mqttDomutils_update() {
     $cmd = $eqLogic->getCmd('info', 'vigiCrue');
     if (is_object($cmd)) {
       $cmd->remove();
+    }
+    # Update 11/2023
+    $cmd = $eqLogic->getCmd('info', 'vigiInondation');
+    if (is_object($cmd)) {
+      $cmd->setLogicalId('vigiCrue');
+      $cmd->save(true);
     }
   }
 }
