@@ -4,6 +4,10 @@
 >
 >If there is no information about the update, it means that it is only about documentation, translation or text update.
 
+# 17/11/2023
+- Library updated to version 1.2.1
+- Weather watch over several periods. Each period has a colour and a start and end date.
+
 # 30/09/2023
 - Library updated to version 1.1.2
 

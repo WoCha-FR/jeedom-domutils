@@ -93,7 +93,7 @@ Para cada ciudad configurada, el plugin creará comandos "info" para cada inform
 - **Vacaciones**: ¿Es un día de fiesta? Nombre de las vacaciones, Número de días antes de que terminen las vacaciones, Próximas vacaciones (nombre y fecha), Número de días antes de las próximas vacaciones.
 - **Sol**: Hora de salida y puesta del sol, cenit, duración del día (y diferencia con el día anterior), acimut y elevación.
 - **Luna**: Hora de salida, puesta, fase lunar, Elevación, Luna siempre arriba o ausente todo el día.
-- **Vigilancia**: Color por tipo de peligro.
+- **Vigilancia**: Color por tipo de peligro con horas de inicio y fin. 3 periodos por tipo de vigilancia.
 
 ## Actualización de datos
 

@@ -93,7 +93,7 @@ Pour chaque ville configurée, le plugins va créer des commandes "info" pour ch
 - **Vacances** : Est-ce les vacances ? Nom des vacances, Nombre de jour avant la fin des vacances, Prochaines vavances (nom & date), Nombre de jour avant les prochaines vacances.
 - **Soleil** : Heure de lever, de coucher, du zenith, durée du jour (et différence par rapport à la veille), Azimuth et Elévation.
 - **Lune** : Heure de lever, de coucher, Phase de lune, Elévation, Lune toujours levée ou absente toute la journée.
-- **Vigilance** : Couleur par type de danger (vent, orage, neige, ...).
+- **Vigilance** : Couleur par type de danger avec heure de début et fin. 3 périodes par type de vigilance.
 
 ## Actualisation des données
 

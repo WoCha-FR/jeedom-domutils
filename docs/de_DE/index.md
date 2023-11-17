@@ -93,7 +93,7 @@ Für jede konfigurierte Stadt wird das Plugin "info"-Befehle für jede Informati
 - **Schulferien**: Ist dies der Urlaub? Name des Urlaubs, Anzahl der Tage bis zum Ende des Urlaubs, Nächster Urlaub (Name & Datum), Anzahl der Tage bis zum nächsten Urlaub.
 - **Sonne**: Aufgangs-, Untergangs- und Zenit-Zeit, Tageslänge (und Unterschied zum Vortag), Azimuth und Elevation.
 - **Mond**: Aufgangs- und Untergangszeit, Mondphase, Elevation, Mond immer aufgegangen oder den ganzen Tag abwesend.
-- **Wachsamkeit**: Farbe nach Gefahrenart.
+- **Wachsamkeit**: Farbe pro Gefahrenart mit Start- und Endzeit. 3 Perioden pro Wachsamkeitstyp.
 
 ## Aktualisierung der Daten
 
