@@ -21,7 +21,9 @@ function mqttDomutils_install() {
 
 function mqttDomutils_update() {
   // Suppression des vigilances inutiles
+  // VigiConseil / vigiComment / vigiCrue
   foreach (eqLogic::byType('mqttDomutils') as $eqLogic) {
+    # Update 06/2023
     $cmd = $eqLogic->getCmd('info', 'vigiConseil');
     if (is_object($cmd)) {
       $cmd->remove();
@@ -30,9 +32,18 @@ function mqttDomutils_update() {
     if (is_object($cmd)) {
       $cmd->remove();
     }
-    $cmd = $eqLogic->getCmd('info', 'vigiCrue');
-    if (is_object($cmd)) {
-      $cmd->remove();
+    # Update 11/2023
+    // vigiInondation passe à Vigicrue (qui etait à effacer en juin...)
+    // si vigiCrue ET VigiInnondation => pas fait update en Juin donc effacement commande VigiCrue
+    // ensuite, si VigiInnondation existe, on renome en VigiCrue => Update novembre.
+    $cmd1 = $eqLogic->getCmd('info', 'vigiCrue');
+    $cmd2 = $eqLogic->getCmd('info', 'vigiInondation');
+    if (is_object($cmd1) && is_object($cmd2)) {
+      $cmd1->remove();
+    }
+    if (is_object($cmd2)) {
+      $cmd2->setLogicalId('vigiCrue');
+      $cmd2->save(true);
     }
   }
 }

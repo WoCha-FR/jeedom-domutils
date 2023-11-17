@@ -93,7 +93,7 @@ For each configured city, the plugin will create "info" commands for each inform
 - **School vacations**: Is it a vacation? Name of vacation, Number of days before vacation, Next holiday (name & date), Number of days before next vacation.
 - **Sun**: Sunrise, sunset, zenith, day length (and difference from the day before), Azimuth and Elevation.
 - **Moon**: Time of rising, setting, Moon phase, Elevation, Moon always up or absent all day.
-- **Vigilance** : Color by type of danger.
+- **Vigilance** : Colour by type of hazard with start and end times. 3 periods per type of vigilance.
 
 ## Data update
 

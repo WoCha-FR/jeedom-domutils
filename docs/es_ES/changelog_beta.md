@@ -4,6 +4,14 @@
 >
 >Si no hay información sobre la actualización, es porque sólo se trata de actualizaciones de documentación, traducción o texto.
 
+# 17/11/2023
+- Biblioteca actualizada a la versión 1.2.1
+- Mejora de la visualización de las horas de inicio y fin de la vigilancia.
+
+# 16/11/2023
+- Biblioteca actualizada a la versión 1.2.0
+- Vigilancia meteorológica durante varios periodos. Cada periodo tiene un color y una fecha de inicio y fin.
+
 # 30/09/2023
 - Biblioteca actualizada a la versión 1.1.2
 
