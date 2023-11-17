@@ -4,6 +4,14 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
+# 17/11/2023
+- Die Bibliothek wurde auf Version 1.2.1 aktualisiert.
+- Verbesserung der Anzeige der Start- und Endzeiten der Wachsamkeit.
+
+# 16/11/2023
+- Die Bibliothek wurde auf Version 1.2.0 aktualisiert.
+- Wetterwarnung über mehrere Zeiträume. Jeder Zeitraum hat eine Farbe, ein Start- und ein Enddatum.
+
 # 30/09/2023
 - Die Bibliothek wurde auf Version 1.1.2 aktualisiert.
 

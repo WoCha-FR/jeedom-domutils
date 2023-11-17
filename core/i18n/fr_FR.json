@@ -16,6 +16,8 @@
     "Impossible de démarrer le démon mqttDomutils, consultez les logs": "Impossible de démarrer le démon mqttDomutils, consultez les logs",
     "Arrêt du démon mqttDomutils": "Arrêt du démon mqttDomutils",
     "Dépendances non installées.": "Dépendances non installées.",
+    "demain minuit": "demain minuit",
+    "aujourd'hui minuit": "aujourd'hui minuit",
     "H:i": "H:i",
     "aujourd'hui": "aujourd'hui",
     "demain": "demain"

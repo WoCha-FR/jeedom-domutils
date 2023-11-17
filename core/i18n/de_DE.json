@@ -16,6 +16,8 @@
     "Impossible de démarrer le démon mqttDomutils, consultez les logs": "mqttDomutils-Daemon kann nicht gestartet werden, Protokolle überprüfen",
     "Arrêt du démon mqttDomutils": "Stoppen des mqttDomutils-Daemons",
     "Dépendances non installées.": "Nicht installierte Nebengebäude.",
+    "demain minuit": "morgen um Mitternacht",
+    "aujourd'hui minuit": "heute Mitternacht",
     "H:i": "H:i",
     "aujourd'hui": "heute",
     "demain": "morgen"
