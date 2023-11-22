@@ -4,6 +4,9 @@
 >
 >Si no hay información sobre la actualización, es porque sólo se trata de actualizaciones de documentación, traducción o texto.
 
+# 22/11/2023
+- Biblioteca actualizada a la versión 1.2.2
+
 # 17/11/2023
 - Biblioteca actualizada a la versión 1.2.1
 - Vigilancia meteorológica durante varios periodos. Cada periodo tiene un color y una fecha de inicio y fin.

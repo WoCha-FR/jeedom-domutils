@@ -4,6 +4,9 @@
 >
 >If there is no information about the update, it means that it is only about documentation, translation or text update.
 
+# 20/11/2023
+- Library updated to version 1.2.2
+
 # 17/11/2023
 - Library updated to version 1.2.1
 - Improved display of vigilance start and end times.

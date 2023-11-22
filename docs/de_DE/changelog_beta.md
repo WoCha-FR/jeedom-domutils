@@ -4,6 +4,9 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
+# 20/11/2023
+- Die Bibliothek wurde auf Version 1.2.2 aktualisiert.
+
 # 17/11/2023
 - Die Bibliothek wurde auf Version 1.2.1 aktualisiert.
 - Verbesserung der Anzeige der Start- und Endzeiten der Wachsamkeit.

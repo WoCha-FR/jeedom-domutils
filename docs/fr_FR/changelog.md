@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/11/2023
+- Mise à jour de la librairie en version 1.2.2
+
 # 17/11/2023
 - Mise à jour de la librairie en version 1.2.1
 - Vigilance météo sur plusieurs périodes. Chaque période à une couleur, une date de début et de fin.
