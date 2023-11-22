@@ -22,7 +22,7 @@ And for each city provided in parameter :
 This plugin is based on APIs, which are free and do not require the creation of keys and libraries installed as dependencies.
 
 - [geo.api.gouv.fr](https://geo.api.gouv.fr/)
-- [DonneesPubliquesVigilance](https://portail-api.meteofrance.fr/devportal/apis/5e99a87c-d50d-465b-a33f-1f12cf675161/overview)
+- [DonneesPubliquesVigilance](https://portail-api.meteofrance.fr/web)
 - [Le calendrier scolaire](https://data.education.gouv.fr/explore/dataset/fr-en-calendrier-scolaire/information/)
 - [Jours fériés en France](https://calendrier.api.gouv.fr/jours-feries/)
 - [SunCalc](https://github.com/mourner/suncalc)
@@ -46,8 +46,7 @@ This plugin requires [MQTT Manager](https://market.jeedom.com/index.php?v=d&p=ma
 
 #### How to create my API Key
 
-- Start by creating an account as shown [here](https://portail-api.meteofrance.fr/authenticationendpoint/aide.do#create-count)
-- Get your API Key by following these [steps](https://portail-api.meteofrance.fr/authenticationendpoint/aide.do#logic-schema)
+- Follow the Quick Start instructions [here](https://portail-api.meteofrance.fr/web/en/faq) 
 
 ## Equipment configuration
 
