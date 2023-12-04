@@ -4,6 +4,9 @@
 >
 >If there is no information about the update, it means that it is only about documentation, translation or text update.
 
+# 04/12/2023
+- Fixed the problem of not deleting the old topic when changing it.
+
 # 22/11/2023
 - Library updated to version 1.2.1
 
