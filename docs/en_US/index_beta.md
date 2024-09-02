@@ -7,6 +7,7 @@ Publishes French open api values to MQTT and other useful information.
 - Information about the year (number of days in the year, day number in the year, week number, ...)
 - Saint of the day and tomorrow
 - EDF Tempo color of today and tomorrow
+- Information on remaining EDF Tempo days, date of periods
 
 And for each city provided in parameter :
 

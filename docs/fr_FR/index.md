@@ -7,6 +7,7 @@ Publie les valeurs d'api ouverte française vers MQTT et d'autres informations u
 - Informations sur l'année (nombre de jours dans l'année, numéro de jour dans l'année, numéro de semaine, ...)
 - Saint du jour et de demain
 - Couleur EDF Tempo d'aujourd'hui et de demain
+- Information sur les jours EDF Tempo restants, date des périodes
 
 Et pour chaque ville fournie en paramètre :
 
