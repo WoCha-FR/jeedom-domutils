@@ -4,6 +4,9 @@
 >
 >If there is no information about the update, it means that it is only about documentation, translation or text update.
 
+# 02/09/2024
+- Update of the library to version 1.2.3: Correction EDF Tempo + Addition of holidays 2025 
+
 # 04/12/2023
 - Fixed the problem of not deleting the old topic when changing it.
 

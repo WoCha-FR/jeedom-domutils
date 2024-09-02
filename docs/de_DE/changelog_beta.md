@@ -4,6 +4,9 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
+# 02/09/2024
+- Aktualisierung der Bibliothek auf Version 1.2.3: Korrektur EDF Tempo + Hinzufügen Urlaub 2025 
+
 # 04/12/2023
 - Fehler behoben, durch den das alte Topic nicht gelöscht wurde, wenn es geändert wurde.
 
