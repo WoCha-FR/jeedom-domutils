@@ -7,6 +7,7 @@ Publica los valores de la api abierta francesa en MQTT y otra información útil
 - Información sobre el año (número de días del año, número de día del año, número de semana, ...)
 - Santo del día y de mañana
 - El color del EDF Tempo de hoy y de mañana
+- Información sobre los días EDF Tempo restantes, fecha de los períodos
 
 Y para cada ciudad prevista en el parámetro :
 

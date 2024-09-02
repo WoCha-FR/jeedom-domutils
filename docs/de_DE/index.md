@@ -7,6 +7,7 @@ Veröffentlicht die Werte der französischen Open Api zu MQTT und andere nützli
 - Informationen über das Jahr (Anzahl der Tage im Jahr, Nummer des Tages im Jahr, Nummer der Woche, ...).
 - Sankt von heute und morgen
 - EDF Tempo-Farbe von heute und morgen
+- Information über die verbleibenden EDF-Tempo-Tage, Datum der Perioden
 
 Und für jede in Parameter gelieferte Stadt :
 
